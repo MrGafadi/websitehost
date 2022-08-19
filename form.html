@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Book A Room</title>
+    <link rel="stylesheet" href="style2.css">
+    </head>
+    <div class="navi">
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: red;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: blue;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+<body>
+    <h2 class="name">Loading<span> Hotel</span> </h2>
+<h1 class="Main-title">Book A Room Now</h1>
+
+<div>
+  <form action="#">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="First Name">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Last Name">
+
+    <label for="country">Total People</label>
+    <select id="country" name="country">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+
+    
+      
+    </select>
+    <label for="room-type">Room Type</label>
+    <select id="rooms" name="country">
+      <option value="room1">Room With Ac Double Bed</option>
+      <option value="room2">Room Without Ac Double Bed</option>
+      <option value="room3">Room With Ac Single Bed</option>
+      <option value="room4">Room Without Ac Single Bed</option>
+
+    
+      
+    </select>
+    <label for="payememnt">Payment Method </label>
+    <select id="payment" name="Payment">
+      <option value="1">Esewa</option>
+      <option value="2">Khalti</option>
+      <option value="3">Hand Cash</option>
+      </select>
+      <input type="checkbox" id="terms">
+      <label for="Terms And Condition">I Accept The Terms and condtion</label>
+  
+    <input type="submit" value="Submit">
+  </form>
+
+</div>
+</div>
+</body>
+</html>
